@@ -135,8 +135,8 @@ body {
 }
 
 .hero-title {
-    padding-bottom: 30px;
     margin: 0 auto;
+    margin-bottom: 30px;
     max-width: 696px;
 
     font-weight: 900;
@@ -273,22 +273,19 @@ body {
 }
 
 .section-list {
-    padding-bottom: 94px;
-
     display: flex;
     gap: 30px;
 }
 
 .section-list li {
     background-color: var(--White-color);
-
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
 .about-team {
-    padding-top: 30px;
+    padding-bottom: 10px;
 
     text-transform: capitalize;
     font-weight: 500;
@@ -301,9 +298,6 @@ body {
 }
 
 .about-position {
-    margin-top: 10px;
-    padding-bottom: 30px;
-
     font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
@@ -313,10 +307,16 @@ body {
 
 }
 
+.section-team-list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* Фильтр работ */
 
 .section-button {
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .button {
@@ -354,8 +354,6 @@ body {
 /* Портфолио */
 
 .feature-list {
-    margin-bottom: 94px;
-
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
